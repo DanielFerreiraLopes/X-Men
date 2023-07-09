@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto X-Men</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img  class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
+
+    <main class="selecao-personagens">
+
+      <section class="personagens">
+        <h1 class="titulo">Selecione um Personagem</h1>
+        <ul class="lista-personagens">
+          <li class="personagem" id="ciclope" data-name="Ciclope" data-description="Ciclope tem a habilidade de disparar rajadas opticas, Ciclope não tem controle sobre sua habilidade, isso o faz usar um visor especial para conseguir contelas">
+            <img
+              src="./src/imagens/card-ciclope.jpg"
+              alt="Personagem Ciclope"
+            />
+          </li>
+          <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Uma dos mutantes mais poderosos conhecidos, Jean Grey possui telecinese podendo levitar, controlar e esmagar tudo que seja tangível e possui telepatia avançada">
+            <img
+              src="./src/imagens/card-jean-grey.jpg"
+              alt="Personagem Jean-Grey"
+            />
+          </li>
+          <li class="personagem" id="lince-negra" data-name="Lince-Negra" data-description="Uma mutante com a halilidade de sé tornar intangivel, podendo atravesar tudo que é tangível">
+            <img
+              src="./src/imagens/card-lince-negra.jpg"
+              alt="Personagem Lince-Negra"
+            />
+          </li>
+          <li class="personagem" id="magneto" data-name="Magneto" data-description="Um dos mutantes mais poderosos e perigosos, possui poderes eletromagneticos sendo capais de retorcer e levitar metais">
+            <img
+              src="./src/imagens/card-magneto.jpg"
+              alt="Personagem Magneto"
+            />
+          </li>
+          <li class="personagem" id="noturno" data-name="Noturno" data-description="Teleporte">
+            <img
+              src="./src/imagens/card-noturno.jpg"
+              alt="Personagem Noturno"
+            />
+          </li>
+          <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tempestade tem a capacidade de controlar eventos climaticos, podendo alterar a temperatura, criar tempestades, produzir e direcionar raios, controlar corentes oceanicas e produzir tornados de escalar imensas">
+            <img
+              src="./src/imagens/card-tempestade.jpg"
+              alt="Personagem Tempestade"
+            />
+          </li>
+          <li class="personagem" id="vampira" data-name="Vampira" data-description="Ela tem a habilidade de drenar a força vital dos seres vivos que ela toca podendo matalos caso agarre seu alvo por muito tempo, caso o ser vivo que ela toque seja um mutante ela pode absorver seus poderes e utilizalos por um curto periodo de tempo, ela não tem controle de seu poder, por esse motivo usa luvas e roupas compridas para evitar que toque em uma pessoa acidentalmente">
+            <img
+              src="./src/imagens/card-vampira.jpg"
+              alt="Personagem Vampira"
+            />
+          </li>
+          <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Wolverine é um mutante que tem todos os seus sentidos ampliados e habilidades fisicas exepicionais, sua mutação tambem lhe deu garras de ossos que saem por sua mão, alem de seu fator de cura seus ferimentos quaze que instantaneamente e atraza seu envelhecimento">
+            <img
+              src="./src/imagens/card-wolverine.jpg"
+              alt="Personagem Wolverine"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-ciclope.png"
+          alt="Personagem Selecionado"
+        />
+        <div class="informacoes-personagem">
+          <h2 class="nomepersonagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricaopersonagem" id="descricao-personagem">
+            Ciclope tem a habilidade de disparar rajadas opticas, Ciclope não tem controle sobre sua habilidade, isso o faz usar um visor especial para conseguir contelas
+          </p>
+        </div>
+      </section>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
